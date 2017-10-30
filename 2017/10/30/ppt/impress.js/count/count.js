@@ -112,7 +112,7 @@ function render(){
   
   //绘制小时
   renderDigit(parseInt(h/10), window_left, window_top);
-  renderDigit(parseInt(h%10), window_left + 15*(r+1), window_top, );
+  renderDigit(parseInt(h%10), window_left + 15*(r+1), window_top);
   renderDigit(10,             window_left + 30*(r+1), window_top);
   //绘制分钟
   renderDigit(parseInt(m/10), window_left + 39*(r+1), window_top);
